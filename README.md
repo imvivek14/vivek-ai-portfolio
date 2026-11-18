@@ -1,53 +1,78 @@
-# Vivek Surati — AI / Generative AI Engineer Portfolio
+# Vivek Surati | AI Engineer Portfolio
 
-A responsive, dark editorial portfolio built with Next.js App Router, TypeScript, Tailwind CSS 4, Framer Motion and Lucide React. It uses a lightweight Canvas particle field and CSS-driven ambient visuals rather than a heavy WebGL scene.
+<p align="center">
+  <a href="https://vivek-ai-portfolio-swart.vercel.app/">
+    <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-Live-7C3AED?style=for-the-badge" alt="Live Portfolio"/>
+  </a>
+  <a href="https://github.com/imvivek14">
+    <img src="https://img.shields.io/badge/GitHub-imvivek14-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/vivek-surati-752906347/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+  </a>
+</p>
 
-## Requirements
+## About
 
-- Node.js 20.9+ (Node 22 recommended)
-- npm
+Hi! I'm **Vivek Surati**, an AI Engineer focused on building practical AI applications, Generative AI systems, and intelligent automation solutions.
 
-## Run locally
+I enjoy working across the AI development lifecycle — from data processing and machine learning to LLM-powered applications, RAG pipelines, and multi-agent systems.
 
-```bash
-npm install
-npm run dev
-```
+This repository contains the source code for my personal portfolio website, where I showcase my projects, technical skills, experience, and background.
 
-Open [http://localhost:3000](http://localhost:3000).
+## Live Portfolio
 
-## Production build
+🌐 **[vivek-ai-portfolio-swart.vercel.app](https://vivek-ai-portfolio-swart.vercel.app/)**
 
-```bash
-npm run build
-npm start
-```
+## Featured Projects
 
-## Deploy to Vercel
+| Project | Description | Technologies |
+|---|---|---|
+| [RAG AI Knowledge Assistant](https://rag-ai-knowledge-assistant.vercel.app/) | Document-based question answering using Retrieval-Augmented Generation | Python, FastAPI, LangChain, FAISS, Gemini, Next.js |
+| [Multi-Agent Research Engine](https://multi-agent-research-engine-b4bygfwpfkwmvqtpgjf89n.streamlit.app/) | Multi-agent research, information gathering, fact-checking and report generation | CrewAI, Python, Tavily, OpenRouter |
+| [AI Content Intelligence Platform](https://content-intelligence-platform.streamlit.app/) | AI-powered content research, paraphrasing and generation | Python, Streamlit, Gemini |
+| [AI Data Analysis Agent](https://ai-data-analysis-agent-beta.vercel.app/) | Automated data analysis, visualizations and insights from CSV/Excel files | React, JavaScript, Vite, Recharts |
 
-1. Push this folder to a GitHub repository.
-2. Import the repository in Vercel.
-3. Keep the framework preset as **Next.js** and the build command as `next build`.
-4. Deploy. No environment variables are required.
+## Tech Stack
 
-## Update portfolio content
+**Languages:** Python, SQL, Java (Basic)
 
-- `lib/data.ts` contains profile details, skills, projects, experience and education.
-- `app/globals.css` contains the visual system, responsive layouts and motion styling.
-- `components/ambient-canvas.tsx` controls the interactive particle background.
-- `components/project-art.tsx` contains the abstract project illustrations.
-- `public/Vivek-Surati-Resume.pdf` is the resume download asset.
+**AI & Machine Learning:** Machine Learning, Generative AI, LLMs, RAG, NLP, Scikit-learn
 
-Project-specific repository and live-demo URLs were not included in the supplied resume, so the project cards intentionally link to the verified GitHub profile rather than inventing individual URLs. The resume describes the first and fourth projects as live on Vercel and the second and third as live on Streamlit.
+**Frameworks & Libraries:** FastAPI, LangChain, Next.js, React, Streamlit, Pandas, NumPy
 
-## Accessibility and performance notes
+**Tools & Platforms:** Git, GitHub, FAISS, n8n, REST APIs, Vercel
 
-- Responsive desktop, tablet and mobile layouts.
-- Keyboard-accessible native links and menu button.
-- Reduced-motion preference disables the ambient canvas and minimizes transitions.
-- Canvas is capped at 64 particles and device pixel ratio 1.5.
-- No backend or environment variables are required; contact uses a real `mailto:` link.
+## Experience
 
-## Verification
+**Python for Data Science (AI/ML) Intern — Durvasa Infotech**
 
-The project was authored with TypeScript and production configuration. A production build could not be run in the authoring environment because npm registry requests failed with a DNS resolution error (`EAI_AGAIN`). Run `npm install`, `npm run typecheck` and `npm run build` in an environment with package-registry access before deployment.
+January 2026 – March 2026
+
+- Worked on end-to-end AI/ML workflows.
+- Performed data collection, web scraping, cleaning and exploratory data analysis.
+- Developed regression and classification models using Scikit-learn.
+- Explored workflow automation using n8n and API development using FastAPI.
+
+## Education
+
+**Bachelor of Engineering — Computer Science & Engineering**  
+R.N.G. Patel Institute of Technology | GTU | 2026
+
+**Diploma — Computer Engineering**  
+Jayvantrai Harrai Desai Polytechnic | GTU | 2023
+
+## Let's Connect
+
+I'm always interested in connecting with people working in AI, Machine Learning, and Generative AI.
+
+- **Portfolio:** https://vivek-ai-portfolio-swart.vercel.app/
+- **LinkedIn:** https://www.linkedin.com/in/vivek-surati-752906347/
+- **GitHub:** https://github.com/imvivek14
+- **Email:** viveksurati1410@gmail.com
+
+---
+
+<p align="center">
+  <i>Building intelligent systems, one project at a time.</i>
+</p>
